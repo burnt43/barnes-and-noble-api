@@ -1,0 +1,14 @@
+#!/bin/bash
+
+irb_bin=$(which irb)
+bundle_bin=$(which bundle)
+
+dir_name=$(dirname $0)
+
+if [[ "${dir_name:0:1}" == '/' ]]; then
+  app_dir="$dir_name/.."
+else
+  app_dir="./$dir_name/.."
+fi
+
+$irb_bin -r $app_dir/lib/barnes-and-noble-api
