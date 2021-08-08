@@ -11,4 +11,4 @@ else
   app_dir="./$dir_name/.."
 fi
 
-$irb_bin -r $app_dir/lib/barnes-and-noble-api
+$bundle_bin exec $irb_bin -r $app_dir/lib/barnes-and-noble-api
