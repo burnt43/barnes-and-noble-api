@@ -21,6 +21,7 @@ GEM
     faraday-net_http_persistent (1.2.0)
     faraday-patron (1.0.0)
     faraday-rack (1.0.0)
+    hashie (4.1.0)
     mini_portile2 (2.6.1)
     minitest (5.14.4)
     multipart-post (2.1.1)
@@ -36,6 +37,7 @@ PLATFORMS
 
 DEPENDENCIES
   faraday
+  hashie
   minitest
   nokogiri
   rake
