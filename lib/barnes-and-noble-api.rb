@@ -21,9 +21,6 @@ end
 
 # Main Module Declaration
 module BanApi
-  # TODO: Figure out how to change the store (mess around in browser for this).
-
-  # TODO: Create product class.
 end
 
 pathname = Pathname.new(__FILE__)

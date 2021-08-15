@@ -25,7 +25,6 @@ module BanApi
     end
 
     # Public API Methods {{{
-    # TODO: Do the format options (bitwise like a C program would do).
     def search(
       term,
       number_of_results_per_page: 20,
