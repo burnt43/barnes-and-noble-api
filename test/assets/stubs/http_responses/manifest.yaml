@@ -1,5 +1,5 @@
 manifest:
-  battle_angel_alita_search:
+  battle_angel_alita_search_page_01:
     response: 200
     headers:
-    body: battle_angel_alita_search
+    body: battle_angel_alita_search_page_01
