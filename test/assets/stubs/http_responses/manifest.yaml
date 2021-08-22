@@ -3,3 +3,15 @@ manifest:
     response: 200
     headers:
     body: battle_angel_alita_search_page_01
+  battle_angel_alita_search_page_02:
+    response: 200
+    headers:
+    body: battle_angel_alita_search_page_02
+  battle_angel_alita_search_page_03:
+    response: 200
+    headers:
+    body: battle_angel_alita_search_page_03
+  battle_angel_alita_search_page_04:
+    response: 200
+    headers:
+    body: battle_angel_alita_search_page_04

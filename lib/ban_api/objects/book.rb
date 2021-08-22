@@ -3,8 +3,10 @@ module BanApi
     class Book < BanApi::Objects::Abstract
       attr_accessor *(%i[
         author
+        available_for_preorder
         available_online
-        available_stores
+        available_stores_for_purchase
+        available_stores_for_pickup
         format
         price_usd
         title

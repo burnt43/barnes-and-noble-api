@@ -21,15 +21,15 @@ module BanApi
     end
     # }}}
 
-    def search_all(term)
-    end
-
     # Public API Methods {{{
+
+    # --search--
+    #   This is the low-level search, which is the basic search that you
+    #   would do on the Barnes & Noble website.
     def search(
       term,
       number_of_results_per_page: 20,
-      page: 1,
-      format: nil
+      page: 1
     )
       result = make_request(
         "/s/#{CGI.escape(term)}",
@@ -39,6 +39,14 @@ module BanApi
         }
       )
       BanApi::Parsers::Search.new(result).products
+    end
+
+    # --search_all--
+    def search_all(
+      term,
+      format: nil,
+      stores: []
+    )
     end
     # }}}
 
