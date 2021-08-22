@@ -29,7 +29,8 @@ module BanApi
     def search(
       term,
       number_of_results_per_page: 20,
-      page: 1
+      page: 1,
+      store: nil
     )
       result = make_request(
         "/s/#{CGI.escape(term)}",

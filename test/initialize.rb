@@ -1,3 +1,9 @@
+module Warning
+  def warn(msg)
+    # NoOp
+  end
+end
+
 require 'minitest/pride'
 require 'minitest/autorun'
 

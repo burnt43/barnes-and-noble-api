@@ -36,6 +36,8 @@ require pathname.parent.join('ban_api', 'objects').to_s
 require pathname.parent.join('ban_api', 'objects', 'abstract').to_s
 require pathname.parent.join('ban_api', 'objects', 'author').to_s
 require pathname.parent.join('ban_api', 'objects', 'book').to_s
+require pathname.parent.join('ban_api', 'objects', 'movie').to_s
+require pathname.parent.join('ban_api', 'objects', 'music').to_s
 
 # Parsers
 require pathname.parent.join('ban_api', 'parsers').to_s

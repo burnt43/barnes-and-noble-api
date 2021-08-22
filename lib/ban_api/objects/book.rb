@@ -1,17 +1,9 @@
 module BanApi
   module Objects
     class Book < BanApi::Objects::Abstract
-      attr_accessor *(%i[
-        author
-        available_for_preorder
-        available_online
-        available_stores_for_purchase
-        available_stores_for_pickup
-        format
-        price_usd
-        title
-        url
-      ])
+      attr_accessor(
+        :author
+      )
 
       def to_debug_s
         StringIO.new.tap do |s|
